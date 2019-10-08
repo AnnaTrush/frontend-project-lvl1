@@ -1,6 +1,6 @@
 #!/usr/bin/env node 
 console.log('Welcome to the Brain Games!');
 
-import brain-games from '..';
+import games from '..';
 
 console.log('');

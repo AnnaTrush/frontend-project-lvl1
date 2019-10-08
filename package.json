@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "bin": {
-    "brain-games": "src/bin/brain-games.js",
-    "brain-even": "src/bin/brain-even"
+    "brain-games": "src/bin/games.js",
+    "brain-even": "src/bin/even.js"
   },
   "files": [
     "dist"
@@ -25,8 +25,8 @@
     "babel-eslint": "^10.0.3",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-import": "^2.18.2"
-    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint": "^6.4.0"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
